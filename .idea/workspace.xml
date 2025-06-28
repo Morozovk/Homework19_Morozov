@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2305c73f-b53d-43f1-aaf8-7088142fb6eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckTitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/WebDriverConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/WebDriverProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
+    <list default="true" id="2305c73f-b53d-43f1-aaf8-7088142fb6eb" name="Changes" comment="&quot;Реализован config и тест&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/remote.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,18 +43,25 @@
       </list>
     </option>
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Morozovk"
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Morozovk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Morozovk/Homework19_Morozov.git",
-    "accountId": "7a73b895-821d-49ab-bff2-65789b78a543"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Morozovk/Homework19_Morozov.git&quot;,
+    &quot;accountId&quot;: &quot;7a73b895-821d-49ab-bff2-65789b78a543&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2z8gDXj3o7rrGQR9dX7aB1ryPBx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,6 +70,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.CheckTitleTest.executor": "Run",
+    "Gradle.Homework19_Morozov [help].executor": "Run",
+    "Gradle.Homework19_Morozov [tasks].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -62,7 +81,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Homework19_Morozov [tasks]">
     <configuration name="CheckTitleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,8 +106,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Homework19_Morozov [help]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="help" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Homework19_Morozov [tasks]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="tasks" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Homework19_Morozov [tasks]" />
+        <item itemvalue="Gradle.Homework19_Morozov [help]" />
         <item itemvalue="Gradle.CheckTitleTest" />
       </list>
     </recent_temporary>
@@ -102,7 +167,20 @@
       <option name="presentableId" value="Default" />
       <updated>1750976690558</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Реализован config и тест&quot;">
+      <option name="closed" value="true" />
+      <created>1751030092701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751030092702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Реализован config и тест&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Реализован config и тест&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
